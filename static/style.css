@@ -1,0 +1,9 @@
+/* アート効果用のクラス */
+.art-shadow { text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8); }
+.art-glow   { text-shadow: 0 0 15px rgba(255, 255, 255, 0.9); }
+.art-blur   { filter: blur(3px); }
+.art-hollow { 
+    color: transparent !important; 
+    -webkit-text-stroke-width: 2px; 
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3); 
+}
